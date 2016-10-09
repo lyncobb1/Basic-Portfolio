@@ -1,0 +1,100 @@
+body {
+	background-image: url("../images/128-29.jpg");
+	background-attachment: fixed;
+}
+
+@font-face {
+	font-family: 'Kaushan Script';
+	src: url('fonts/www.fontsquirrel.com');
+}
+
+
+h1 {display: inline-block;
+	margin-left: 60px;
+	margin-top: 20px;
+	font-family: Kaushan Script, Georgia, serif;
+	color: blue;
+	font-size: 38px;
+	margin-bottom: 10px;
+}
+
+nav {
+	display: inline-block;
+	margin-left: 455px;
+	margin-top: 20px;
+	font-size: 1.50em;
+	text-decoration: none;
+}
+
+h2 {
+	padding: 5px;
+	color: white;
+	font-size: 30px;
+	margin-left: 36px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	height: 35px;
+	font-size: 24px;
+	margin-left: 0px;
+	border-bottom: 3px solid white;
+	margin-bottom: 5px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin-left: 40px;
+	float: left;
+	margin-right: 15px;
+}
+
+p { 
+   color: white;
+   margin-left: 40px;
+   margin-right: 40px;
+   line-height: 1.70em;
+   text-align: justify;
+   font-size: 18px;
+ }
+
+#SectionBio {
+	float: left;
+	width: 675px;
+	height: 490px;
+	background-color: #808787;	
+	margin-left: 40px;
+	margin-bottom: 5px;
+	color: black;
+}
+
+#MediaBox {
+	float: right;
+	height: 250px;
+	width: 300px;
+	background-color: #8F9696;
+	margin-right: 175px;
+	margin-top: 5px;
+	color: white;
+	text-align: center;
+}
+
+#MediaBox img {
+	height: 65px;
+	width: 65px;
+	margin-top: 35px;
+	margin-left: 18px;	
+}
+
+
+footer {
+	padding: .05px;
+	clear: both;
+	background-color: #858C8C;
+	height: 50px;
+	width: 675px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 40px;	
