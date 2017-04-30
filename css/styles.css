@@ -8,7 +8,6 @@ html {
 	box-sizing: inherit;
  }
 
-
 body {
 	background-image: url("../images/128-29.jpg");
 	background-attachment: fixed;
@@ -22,8 +21,8 @@ body {
 	src: url('fonts/www.fontsquirrel.com');
 }
 
-#top {
-	height: 80px;
+#header {
+	height: 90px;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
 }
@@ -58,6 +57,19 @@ h2 {
 	margin-left: 36px;
 	margin-bottom: 5px;
 	
+}
+
+#SectionBio {
+	float: left;
+	width: 650px;
+	height: 400px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	margin-right: 5px;	
+	margin-left: 20px;
+	margin-bottom: 10px;
+	color: #777777;
+	border: 1px solid #cccccc;
 }
 
 .Section1 {
@@ -100,18 +112,6 @@ p {
    font-size: 18px;
  }
 
-#SectionBio {
-	float: left;
-	width: 650px;
-	height: 420px;
-	background-color: #ffffff;
-	margin-top: 10px;
-	margin-right: 5px;	
-	margin-left: 20px;
-	margin-bottom: 10px;
-	color: #777777;
-	border: 1px solid #cccccc;
-}
 
 #MediaBox {
 	height: 205px;
@@ -138,13 +138,11 @@ footer {
 	padding: .05px;
 	clear: both;
 	background-color: #666666;
-	height: 50px;
-	width: 960px;
+	height: 90px;
+	width: 100%;
 	color: white;
 	text-align: center;
 	font-size: 14px;
-	margin-left: auto;	
-	margin-right: auto;
 }
 
 
