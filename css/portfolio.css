@@ -75,12 +75,12 @@ h2 {
   	box-shadow: 0 10px 10px -10px #8c8c8c inset;
 }
 
-h3 {
+#mediaBox h3 {
 	color: #4aaaa5;
 	font-size: 24px;	
 }
 
-#SectionBio {
+#sectionBio {
 	float: left;
 	width: 650px;
 	height: 780px;
@@ -94,14 +94,14 @@ h3 {
 	padding: 20px;
 }
 
-#SectionBio img {
+#sectionBio img {
 	height: 140px;
 	width: 240px;
 	margin-left: 40px;
 	margin-bottom: 20px;
 }
 	
-#MediaBox {
+#mediaBox {
 	height: 205px;
 	width: 270px;
 	background-color: #ffffff;
@@ -112,7 +112,7 @@ h3 {
 	border: 1px solid #cccccc;
 }
 
-#MediaBox img {
+#mediaBox img {
 	display: inline;
 	height: 55px;
 	width: 55px;
@@ -126,7 +126,7 @@ footer {
 	padding: .05px;
 	clear: both;
 	background-color: #666666;
-	height: 50px;
+	height: 60px;
 	width: 960px;
 	color: white;
 	text-align: center;
