@@ -11,6 +11,9 @@ html {
 body {
 	background-image: url("../images/128-29.jpg");
 	background-attachment: fixed;
+}
+
+#wrapper {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -25,23 +28,24 @@ body {
 	height: 90px;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
+	text-align: left;
 }
 
 #heading h1 {
 	display: inline;
-	padding: 20px;
+	padding: 45px;
+	text-align: center;
 	background-color: #4aaaa5;
 	font-family: Kaushan Script, Georgia, serif;
 	color: white;
 	font-size: 20px;
-	margin-left: 40px;
-	margin-bottom: 0px;
+	margin-left: 50px;
 }
 
 nav {
 	display: inline-block;
 	float: right;
-	margin-right: 85px;
+	margin-right: 175px;
 	font-size: 18px;
 }
 
@@ -50,19 +54,29 @@ a {
 	color: #777777;
 }
 
-h2 {
+section #sectionBio h2 {
 	padding: 5px;
 	color: #4aaaa5;
 	font-size: 30px;
 	margin-left: 36px;
 	margin-bottom: 5px;
-	
+	margin-top: 20px;
 }
 
-#SectionBio {
+section hr {
+	color: #777777;
+	margin-bottom: 15px;
+	height: 10px;
+	width: 580px;
+  	border: 0;
+  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
+
+}
+
+section #sectionBio {
 	float: left;
 	width: 650px;
-	height: 400px;
+	height: 450px;
 	background-color: #ffffff;
 	margin-top: 10px;
 	margin-right: 5px;	
@@ -72,30 +86,7 @@ h2 {
 	border: 1px solid #cccccc;
 }
 
-.Section1 {
-	color: #777777;
-	margin-bottom: 15px;
-	height: 10px;
-	width: 580px;
-  	border: 0;
-  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
-}
-
-.Media1 {
-	color: #777777;
-	margin-bottom: 5px;
-	height: 10px;
-	width: 185px;
-  	border: 0;
-  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
-}
-
-h3 {
-	color: #4aaaa5;
-	font-size: 24px;	
-}
-
-img {
+section #sectionBio img {
 	width: 195px;
 	height: 195px;
 	margin-left: 40px;
@@ -103,17 +94,30 @@ img {
 	float: left;
 }
 
-p { 
+p {
    color: #777777;
    margin-left: 40px;
    margin-right: 40px;
    line-height: 1.70em;
    text-align: justify;
    font-size: 18px;
- }
+}
 
+aside hr {
+	color: #777777;
+	margin-bottom: 5px;
+	height: 10px;
+	width: 200px;
+  	border: 0;
+  	box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
 
-#MediaBox {
+aside #mediaBox h3 {
+	color: #4aaaa5;
+	font-size: 24px;	
+}
+	
+aside #mediaBox {
 	height: 205px;
 	width: 270px;
 	background-color: #ffffff;
@@ -124,12 +128,12 @@ p {
 	border: 1px solid #cccccc;
 }
 
-#MediaBox img {
+aside #mediaBox img {
 	display: inline;
 	height: 55px;
 	width: 55px;
 	margin-top: 25px;
-	margin-left: 24px;	
+	margin-left: 15px;	
 	margin-right: auto;
 }
 
@@ -138,11 +142,11 @@ footer {
 	padding: .05px;
 	clear: both;
 	background-color: #666666;
-	height: 90px;
-	width: 100%;
+	height: 75px;
 	color: white;
 	text-align: center;
 	font-size: 14px;
+	margin-left: auto;	
+	margin-right: auto;
 }
-
 
