@@ -9,9 +9,6 @@ html {
 body {
 	background-image: url("../images/128-29.jpg");
 	background-attachment: fixed;
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 @font-face {
@@ -19,8 +16,14 @@ body {
 	src: url('fonts/www.fontsquirrel.com');
 }
 
-#top {
-	height: 80px;
+#wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	height: 75px;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
 }
@@ -32,14 +35,13 @@ body {
 	font-family: Kaushan Script, Georgia, serif;
 	color: white;
 	font-size: 20px;
-	margin-left: 40px;
-	margin-bottom: 0px;
+	margin-left: 20px;
 }
 
 nav {
 	display: inline-block;
 	float: right;
-	margin-right: 85px;
+	margin-right: 200px;
 	font-size: 18px;
 }
 
@@ -48,7 +50,7 @@ a {
 	color: #777777;
 }
 
-h2 {
+section h2 {
 	padding: 5px;
 	color: #4aaaa5;
 	font-size: 30px;
@@ -80,7 +82,7 @@ h2 {
 	font-size: 24px;	
 }
 
-#sectionBio {
+section #sectionBio {
 	float: left;
 	width: 650px;
 	height: 780px;
@@ -94,14 +96,14 @@ h2 {
 	padding: 20px;
 }
 
-#sectionBio img {
+section #sectionBio img {
 	height: 140px;
 	width: 240px;
 	margin-left: 40px;
 	margin-bottom: 20px;
 }
 	
-#mediaBox {
+aside #mediaBox {
 	height: 205px;
 	width: 270px;
 	background-color: #ffffff;
@@ -112,7 +114,7 @@ h2 {
 	border: 1px solid #cccccc;
 }
 
-#mediaBox img {
+aside #mediaBox img {
 	display: inline;
 	height: 55px;
 	width: 55px;
@@ -127,10 +129,8 @@ footer {
 	clear: both;
 	background-color: #666666;
 	height: 60px;
-	width: 960px;
 	color: white;
 	text-align: center;
 	font-size: 14px;
 	margin-left: auto;	
 	margin-right: auto;
-}

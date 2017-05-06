@@ -31,19 +31,23 @@ nav a {
 }
 
 #header {
-	height: 90px;
+	height: 80px;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
+	overflow: auto;
 }
+
 
 #heading h1 {
 	display: inline;
-	padding: 50px 50px 50px 50px;
+	margin-left: 75px;
+	padding: 25px;
 	background-color: #4aaaa5;
 	font-family: Kaushan Script, Georgia, serif;
 	color: white;
 	font-size: 20px;
 }
+
 
 nav {
 	display: inline-block;
