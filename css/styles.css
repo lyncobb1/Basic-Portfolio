@@ -17,8 +17,7 @@ body {
 
 #wrapper {
 	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 @font-face {
@@ -26,37 +25,51 @@ body {
 	src: url('fonts/www.fontsquirrel.com');
 }
 
-nav a {
-	color: #777777;
-}
 
 #header {
 	height: 80px;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
-	overflow: auto;
+	overflow: hidden;
 }
 
 
-#heading h1 {
+h1 {
 	display: inline;
-	margin-left: 75px;
+	float: left;
+	width: 200px;
+	margin-left: 150px;
 	padding: 25px;
 	background-color: #4aaaa5;
 	font-family: Kaushan Script, Georgia, serif;
-	color: white;
+	color: #fff;
 	font-size: 20px;
 }
 
-
-nav {
-	display: inline-block;
+nav ul {
 	float: right;
-	margin-right: 200px;
-	font-size: 18px;
+	margin-right: 180px;
+	padding-top: 10px;
+	font-size:18px;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+
+nav li:after {
+	content: "|";
+	padding: 0 .25em;
+}
+
+ul li:last-child:after {
+    content: "";
 }
 
 a {
+	color: #777777;
 	text-decoration: none;
 }
 
@@ -145,10 +158,12 @@ footer {
 	clear: both;
 	background-color: #666666;
 	height: 75px;
-	color: white;
+	color: #fff;
 	text-align: center;
 	font-size: 14px;
-	margin-left: auto;	
-	margin-right: auto;
+	margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+	
+}
